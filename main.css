@@ -1,0 +1,77 @@
+/* Body - fon va markazlash */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff9a00, #ff4d00);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Clock qutisi */
+.clock {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    background: #ffae42;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Har bir kartochka */
+.clock div {
+    width: 120px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+/* Soatlar, minutlar, soniyalar */
+.clock div span:first-child {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Label (Hours, Minutes, Seconds) */
+.clock div .label {
+    font-size: 14px;
+    color: #ffae42;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
